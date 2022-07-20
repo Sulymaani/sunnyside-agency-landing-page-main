@@ -1,5 +1,5 @@
-$red: red;
+@forward 'abstract';
+@forward 'base';
 
-body {
-  background-color: blueviolet;
-}
+
+
