@@ -2,7 +2,7 @@
 
 
 .review__header {
-  
+  margin: 30px;
 
   .review__heading {
     font-size: 1.8rem;
@@ -12,6 +12,41 @@
   }
 }
 
-.review__item {
-  background-color: aquamarine;
+.review__items {
+  width: 100%;
+  margin-top: 70px;
+  text-align: center;
+  gap: 1.5rem;
+  
+  
+  .review__item:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    border-radius: 25px;
+    &:hover {
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    }
+  }
 }
+
+.review__item {
+  margin: 3px;
+
+}
+
+.review__img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+
+  img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+  }
+}
+
+.review__title {
+  margin-top: 5rem;
+} 
+
