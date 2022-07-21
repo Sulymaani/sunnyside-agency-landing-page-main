@@ -16,4 +16,6 @@
 .prettierignore
 
 node_modules/
-.cache
+dist/
+.cache/
+.vscode
