@@ -1,0 +1,17 @@
+@use '../abstract' as *;
+
+
+.review__header {
+  
+
+  .review__heading {
+    font-size: 1.8rem;
+    text-align: center;
+    color: $secondary-color-Grayish-blue;
+    letter-spacing: 9px;
+  }
+}
+
+.review__item {
+  background-color: aquamarine;
+}
