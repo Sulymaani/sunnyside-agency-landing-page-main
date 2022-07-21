@@ -437,6 +437,47 @@ footer {
   filter: brightness(0) invert(1);
 }
 
+/* set the height and width of the hero class and give it a background image */
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-image: url("/image-header.ffd6b8fd.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.hero h1 {
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  margin-top: 40px;
+  transform: translate(-50%, -50%);
+}
+
+/* make the h1 large and white and center it */
+.hero .hero__arrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 768px) {
+  .hero .hero__arrow {
+    width: 50px;
+    height: 150px;
+    top: 52%;
+  }
+}
+
 .nav {
   height: 100vh;
   background-color: #3ebfff;
