@@ -184,12 +184,7 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"scss/main.scss":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"D:\\My projects\\Sunny side agency\\sunnyside-agency-landing-page-main\\images\\mobile\\image-graphic-design.jpg":[["image-graphic-design.b97e81ff.jpg","images/mobile/image-graphic-design.jpg"],"images/mobile/image-graphic-design.jpg"],"D:\\My projects\\Sunny side agency\\sunnyside-agency-landing-page-main\\images\\desktop\\image-graphic-design.jpg":[["image-graphic-design.e6dce727.jpg","images/desktop/image-graphic-design.jpg"],"images/desktop/image-graphic-design.jpg"],"D:\\My projects\\Sunny side agency\\sunnyside-agency-landing-page-main\\images\\mobile\\image-photography.jpg":[["image-photography.6562ae8a.jpg","images/mobile/image-photography.jpg"],"images/mobile/image-photography.jpg"],"D:\\My projects\\Sunny side agency\\sunnyside-agency-landing-page-main\\images\\desktop\\image-photography.jpg":[["image-photography.8b07aa52.jpg","images/desktop/image-photography.jpg"],"images/desktop/image-photography.jpg"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -394,4 +389,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/main.77bb5cfd.js.map
+//# sourceMappingURL=/index.js.map
